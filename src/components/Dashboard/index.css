@@ -1,0 +1,147 @@
+.text_head {
+	color: black;
+	font-size: medium;
+	background-color: rgb(255, 255, 255);
+	height: 28px;
+	margin-left: 5px;
+	padding-left: 30px;
+	margin-top: 10px;
+	border-radius: 8px;
+}
+.title_h4_dash {
+	color: rgb(210, 0, 0);
+	font-size: 17px !important;
+	margin-top: 10px !important;
+}
+.text_0 {
+	color: rgb(108, 63, 110);
+	font-size: 15px;
+}
+.text_1 {
+	color: rgb(108, 63, 110);
+	font-size: small;
+	margin-top: -10px;
+}
+.fa-address-book {
+	color: rgb(34, 173, 86);
+	font-size: xx-large;
+	margin: 50px 40px;
+}
+.fa-database {
+	color: rgb(29, 90, 171);
+	font-size: xx-large;
+	margin: 50px 40px;
+}
+.fa-comments {
+	color: rgb(222, 34, 34);
+	font-size: xx-large;
+	margin: 50px 40px;
+}
+.fa-shopping-bag {
+	color: rgb(255, 139, 7);
+	font-size: xx-large;
+	margin: 50px 40px;
+}
+.icon_order {
+	background-color: rgb(253, 225, 195);
+	width: 120px;
+	margin: 10px 10px;
+	border-radius: 10px;
+	height: 130px;
+}
+.icon_warning {
+	background-color: rgb(249, 186, 186);
+	width: 120px;
+	margin: 10px 10px;
+	border-radius: 10px;
+	height: 130px;
+}
+.icon_pro {
+	background-color: rgb(173, 203, 243);
+	width: 120px;
+	margin: 10px 10px;
+	border-radius: 10px;
+	height: 130px;
+}
+.icon_cus {
+	background-color: rgb(185, 255, 211);
+	width: 120px;
+	margin: 10px 10px;
+	border-radius: 10px;
+	height: 130px;
+}
+.line {
+	color: gray;
+	margin-top: -20px;
+}
+.item_customer,
+.item_order,
+.item_products,
+.item_warning {
+	display: flex;
+	width: 300px;
+	background-color: rgb(255, 255, 255);
+}
+.item_left {
+	display: flex;
+}
+.item_right {
+	display: flex;
+}
+.item_order {
+	margin-left: 10px;
+}
+.item_warning {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.item_products {
+	margin-top: 10px;
+}
+
+#line {
+	color: rgb(255, 212, 59);
+	margin-left: 30px;
+}
+
+.text_table_order {
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: -10px;
+	font-size: 24px;
+}
+
+table th,
+table td {
+	border: 1px solid rgb(221, 221, 221);
+	border-collapse: collapse;
+	width: 130px;
+	text-align: center;
+}
+table {
+	margin-left: 30px;
+}
+
+.table_order {
+	background-color: rgb(255, 255, 255);
+}
+
+.main_dash {
+	display: flex;
+}
+
+.chart_dash {
+	background-color: rgb(255, 255, 255);
+	margin-left: 50px;
+	width: 45%;
+}
+
+.text_chart_dash {
+	font-size: 24px;
+	margin-left: 30px;
+	margin-top: 19px;
+}
+.chart_dash_2 {
+	background-color: rgb(255, 255, 255);
+	margin-top: 50px;
+}

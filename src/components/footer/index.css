@@ -1,0 +1,39 @@
+.footer-item {
+  background: #04222d;
+  display: flex;
+  padding: 23px 18px;
+}
+.footer {
+  background: #04222d;
+}
+.footer-item img {
+  margin-right: 15px;
+  height: 57px;
+  width: 57px;
+}
+.row-footer {
+  display: flex;
+}
+.footer-item h5 {
+  font-size: 16px;
+  text-align: inherit;
+  color: #fff;
+}
+.ft2 {
+  padding-top: 5px;
+  display: flex;
+  border-top: 2px solid white;
+  justify-content: space-around;
+}
+.ft2 h5 {
+  padding-left: 31px;
+  color: #fff;
+}
+.ft2 li,
+.ft2 a {
+  color: #fff;
+}
+.ft2 img {
+  width: 203px;
+  height: 80px;
+}

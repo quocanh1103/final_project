@@ -1,0 +1,21 @@
+/* a{
+    color: aliceblue;
+} */
+
+.Log_out {
+	font-size: 17px;
+	margin-top: 3px;
+}
+.Log_out:hover {
+	border-radius: 5px;
+}
+
+.container_head {
+	background-color: rgb(0, 28, 64);
+	height: 40px;
+	width: 100%;
+	padding-top: 1px;
+}
+.fa-bullseye {
+	margin-left: 5px;
+}

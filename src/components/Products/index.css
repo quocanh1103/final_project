@@ -1,0 +1,80 @@
+.fa-plus {
+	color: black;
+}
+.fa-trash {
+	color: rgb(222, 7, 4);
+	cursor: pointer;
+}
+.fa-refresh {
+	color: rgb(245, 175, 136);
+	cursor: pointer;
+}
+.text_product,
+.text_product_1 {
+	list-style-type: none;
+	margin-bottom: -20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.text_product {
+	background-color: rgb(157, 249, 157);
+	width: 170px;
+	padding-left: 12px;
+	border-radius: 7px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	color: black;
+}
+.text_product_1 {
+	background-color: rgb(208, 208, 208);
+	width: 185px;
+	padding-left: 12px;
+	border-radius: 7px;
+	margin-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+}
+
+#item_menu_products {
+	display: flex;
+}
+
+.line_products {
+	color: rgb(221, 221, 221);
+}
+
+#inp_search {
+	border-radius: 5px;
+}
+
+#img_products {
+	margin-left: -2px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+}
+
+.main {
+	background-color: rgb(255, 255, 255);
+	margin-left: 10px;
+	border-radius: 10px;
+}
+#form_add {
+	border-radius: 10px;
+	border: 1px solid grey;
+	width: 250px;
+	padding-left: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+#form_add p {
+	color: red;
+}
+
+.popup-content {
+	border-radius: 16px !important;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}

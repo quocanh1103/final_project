@@ -1,0 +1,15 @@
+.App {
+	background-color: rgb(245, 245, 245);
+	/* display: flex; */
+}
+.App_side {
+	width: 15%;
+	padding-right: 5px;
+}
+.container-fluid {
+	width: 100%;
+}
+.col-2,
+.col-10 {
+	padding: 0 !important;
+}

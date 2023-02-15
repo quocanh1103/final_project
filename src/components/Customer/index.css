@@ -1,0 +1,28 @@
+#Save_cus {
+	/* margin-left: 20px; */
+	margin-right: 40px;
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+	background-color: rgb(193, 193, 193);
+	border: none;
+	text-decoration: none;
+	color: black;
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px;
+}
+#Cancel_cus {
+	border: none;
+	background-color: rgb(193, 193, 193);
+	color: black;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	width: 70px;
+	height: 30px;
+}
+.fa-pause {
+	color: brown;
+}
+.fa-times-circle {
+	color: black;
+}

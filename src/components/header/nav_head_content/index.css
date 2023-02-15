@@ -1,0 +1,30 @@
+.newcollection1 .info {
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  padding: 20px 20px;
+  text-align: justify;
+  background: #f1f1f1;
+}
+.body h4 {
+  padding-bottom: 10px;
+}
+.newcollection1_content {
+  margin-top: 20px;
+}
+.dining_table img {
+  margin-bottom: 30px;
+  margin-left: 23%;
+  width: 640px;
+}
+.ghe_an img {
+  margin-bottom: 30px;
+  margin-left: 23%;
+  width: 640px;
+}
+.ban_tra_ban_sofa img {
+  margin-bottom: 30px;
+  margin-left: 23%;
+  width: 640px;
+}

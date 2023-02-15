@@ -1,0 +1,305 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/1-album-mau-2022/513a0849-cr-600x600.jpg",
+      "name": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX380",
+      "pricenew": 21500000,
+      "priceold": 38500000,
+      "description": {
+        "head": "Thong tin",
+        "body": "Body"
+      },
+      "quantity": 32,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 2,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/1-album-mau-2022/513a0814-cr-600x600.jpg",
+      "name": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450",
+      "pricenew": 21800000,
+      "priceold": 34000000,
+      "quantity": 13,
+      "color": "Đen",
+      "status": "còn hàng"
+    },
+    {
+      "id": 3,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/1-album-mau-2022/513a0934-cr-600x600.jpg",
+      "name": "Bộ bàn ăn mặt đá 6 ghế Inox TVP-LUXCN129",
+      "pricenew": 20500000,
+      "priceold": 34800000,
+      "quantity": 15,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 4,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/san-pham/toan-bo-san-pham-chup/combo-ban-ghe-an-mat-da-tvp-uv05/tvp-tm827s-03-cr-600x600.jpg",
+      "name": "Bộ bàn ghế ăn thông minh kéo dài TVP-TM827",
+      "pricenew": 22500000,
+      "priceold": 30000000,
+      "quantity": 22,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 5,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/ban-an-thong-minh-2022/bo-ban-ghe-an-thong-minh-keo-dai-tvp-tm826/bo-ban-ghe-an-thong-minh-keo-dai-tvp-tm826-3-cr-600x600.jpg",
+      "name": "Bộ bàn ghế ăn thông minh kéo dài TVP-TM826",
+      "pricenew": 20000000,
+      "priceold": 26800000,
+      "quantity": 33,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 6,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/bo-ban-an-moi-nguoi-mau/ban-chan-inox-ma-vang/ghe-loft-vuong/cam/15-09-cr-600x600.jpg",
+      "name": "Bộ bàn ăn mặt đá chân Inox VIP mặt đá và ghế Cami bọc da",
+      "pricenew": 16500000,
+      "priceold": 17520000,
+      "quantity": 52,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 7,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/bo-ban-an-moi-nguoi-mau/ban-chan-canh-buom/ghe-loft-tram/xam-nhat/2-09-cr-600x600.jpg",
+      "name": "Bộ bàn ăn mặt đá chân cánh buồm 6 và ghế Loft trám bọc da",
+      "pricenew": 12500000,
+      "priceold": 14020000,
+      "quantity": 41,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 8,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/bo-ban-an-moi-nguoi-mau/ban-chan-sat-chan-cheo/ghe-otomo/17-09-cr-600x600.jpg",
+      "name": "Bộ bàn ăn mặt đá cẩm thạch 6 ghế cổ điển Otomo cổ điển",
+      "pricenew": 11900000,
+      "priceold": 14800000,
+      "quantity": 10,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 9,
+      "category": "sanphammoive",
+      "image": "https://noithattvp.vn/image/cache/catalog/1-album-mau-2022/513a0849-cr-600x600.jpg",
+      "name": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX380",
+      "pricenew": 21500000,
+      "priceold": 38500000,
+      "quantity": 10,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "id": 10,
+      "category": "new_collection",
+      "image": "https://noithattvp.vn/image/cache/catalog/1-album-2/chen-line-02-cr-600x600.jpg",
+      "name": "Bộ bàn ăn nhập khẩu hiện đại mặt đá Ceramic mã TVP-YC797",
+      "pricenew": 16500000,
+      "priceold": 22000000,
+      "quantity": 10,
+      "color": "Trắng",
+      "status": "còn hàng"
+    },
+    {
+      "name": "Bàn",
+      "image": "https://noithattvp.vn/image/cache/catalog/1-album-mau-2022/513a0849-cr-600x600.jpg",
+      "quantity": 12,
+      "pricenew": 21500000,
+      "category": "sanvuonngoaitroi",
+      "color": "Trắng",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Hồ hữu tuấn",
+      "email": "tuan@gmail.com",
+      "phone": 123456789,
+      "address": "Hoàng Diệu",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Trần Anh Huy",
+      "email": "bao@gmail.com",
+      "phone": 987654321,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Trần Quốc Toản",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Nguyễn Quốc Anh",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Trần Huy",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Nguyễn Quốc Anh",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Nguyễn Quốc Anh",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Nguyễn Quốc Anh",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đang hoạt động"
+    },
+    {
+      "id": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Nguyễn Quốc Anh",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đã tạm ngưng"
+    },
+    {
+      "id": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtvLRR04AUlINV7glMclAp_T6sL3kmYI9cuRyCI7CBytLJRGjnSX8wTZCM-39e_kT8tAY&usqp=CAU",
+      "name": "Nguyễn Quốc Anh",
+      "email": "bao@gmail.com",
+      "phone": 123456789,
+      "address": "Nguyễn Hoàng",
+      "password": "",
+      "status": "Đã tạm ngưng"
+    }
+  ],
+  "orders": [
+    {
+      "idUser": "1",
+      "nameUser": "Trần Đình Bảo",
+      "idProduct": "2 ",
+      "total": 21850000,
+      "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450, ",
+      "count": "1 ",
+      "address": "4 nguyễn cư trinh",
+      "deliver": "Chưa được vận chuyển",
+      "status": "Chưa được xác nhận",
+      "id": 1
+    },
+    {
+      "idUser": "2",
+      "nameUser": "Hồ Hữu Tuấn",
+      "idProduct": "3 ",
+      "total": 36850000,
+      "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450, ",
+      "count": "1 ",
+      "address": "4 nguyễn cư trinh",
+      "deliver": "Chưa được vận chuyển",
+      "status": "Chưa được xác nhận",
+      "id": 2
+    },
+    {
+      "idUser": "1",
+      "nameUser": "Trần Đình Bảo",
+      "idProduct": "4 ",
+      "total": 11110000,
+      "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450, ",
+      "count": "1 ",
+      "address": "4 nguyễn cư trinh",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
+      "id": 3
+    },
+    {
+      "idUser": "1",
+      "nameUser": "Trần Đình Bảo",
+      "idProduct": "4 ",
+      "total": 11110000,
+      "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450, ",
+      "count": "1 ",
+      "address": "4 nguyễn cư trinh",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
+      "id": 4
+    },
+    {
+      "idUser": "1",
+      "nameUser": "Trần Đình Bảo",
+      "idProduct": "4 ",
+      "total": 11110000,
+      "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450, ",
+      "count": "1 ",
+      "address": "4 nguyễn cư trinh",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
+      "id": 5
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "name": "Hồ hữu tuấn",
+      "image": "https://thoitranglami.com/wp-content/uploads/2019/07/5-stars.png",
+      "comment": "siuuuuuuuuuuu"
+    },
+    {
+      "id": 2,
+      "name": "Hồ hữu tuấn",
+      "image": "https://thoitranglami.com/wp-content/uploads/2019/07/5-stars.png",
+      "comment": "siuuuuuuuuuuu"
+    }
+  ]
+}

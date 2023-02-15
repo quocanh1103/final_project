@@ -1,0 +1,30 @@
+#img_ava{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.fa-star{
+    color: yellow;
+}
+
+.icon_ava{
+    margin-right: 30px;
+}
+
+.text_feedback{
+    color: black;
+}
+
+.item_feedback_1, .item_feedback_2{
+    display: flex;
+    width: 400px;
+    background-color: rgb(255,255,255);
+}
+.item_feedback{
+    display: flex;
+    background-color: rgb(245,245,245);
+}
+
+.item_feedback_2{
+    margin-left: 20px;
+}

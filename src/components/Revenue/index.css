@@ -1,0 +1,51 @@
+.item_profit,
+.item_revenue,
+.item_cost {
+	width: 320px;
+	background-color: rgb(255, 255, 255);
+	margin-left: 6px;
+	border-radius: 8px;
+	display: flex;
+	height: 100px;
+}
+.icon_profit {
+	background-color: rgba(193, 64, 90, 0.881);
+	margin-right: 10px;
+	border-radius: 8px;
+	width: 150px;
+}
+.text_h3_profit {
+	color: white;
+	padding-top: 25px;
+	padding-left: 5px;
+}
+.item_revenue {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.text_h3_cost {
+	padding-left: 25px;
+	color: white;
+	padding-top: 25px;
+}
+.chart_pie {
+	width: 400px;
+	height: 400px;
+	margin-left: 200px;
+}
+.container_revenue {
+	display: flex;
+}
+
+.icon_profit_1 {
+	background-color: rgb(234, 255, 0);
+	margin-right: 10px;
+	border-radius: 8px;
+	width: 150px;
+}
+.icon_profit_2 {
+	background-color: rgb(0, 187, 255);
+	margin-right: 10px;
+	border-radius: 8px;
+	width: 150px;
+}
