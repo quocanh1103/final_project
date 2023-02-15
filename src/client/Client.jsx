@@ -1,10 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+
 import Header from "./components/header";
 import Content from "./components/content";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import Header from "./components/header";
 import Footer from "./components/footer";
 import { Routes, Route } from "react-router-dom";
+
 import Newcollection1 from "./components/header/nav_head_content/newcollection1";
 import Newcollection2 from "./components/header/nav_head_content/newcollection2";
 import DingingTable from "./components/header/nav_head_content/banghean";
@@ -28,13 +30,33 @@ import Ghemassage from "./components/header/nav_head_content/ghe_massage";
 import BangheCafe from "./components/header/nav_head_content/ban_ghe_cafe";
 import GhequayBar from "./components/header/nav_head_content/ghe_quay_bar";
 import GhevanPhong from "./components/header/nav_head_content/ghe_van_phong";
+import Login from "./components/logIn/logIn";
+import Signup from "./components/Signup/signup";
 
-const Client = props => {
-    return (
-        <div className="App_test">
-      
+import Cardbuy from "./components/card/cardbuy";
+import NewCollectionMore from "./more/NewCollection";
+import SanVuonNgoaiTroiMore from "./more/SanVuon";
+import VanPhongMore from "./more/VanPhong";
+import BanGheCafeMore from "./more/BanGheCafe";
+import GheQuayBarMore from "./more/GheQuayBar";
+import SofaMore from "./more/Sofa";
+import BanTraBanSofaMore from "./more/BanTra";
+import GheThugianMore from "./more/GheThuGian";
+import SearchResults from "./components/content/search/SearchResults";
+
+import Cart from "./components/cart/Cart";
+
+import Checkout from "./components/cart/cartcheckout";
+import Information from "./Auth/information";
+import ScrollToMid from "./share/scrolltomid";
+import CartPayment from "./components/cart/cartpayment";
+import History from "./components/cart/history";
+
+function Client(props) {
+  return (
+    <>
+      <ScrollToMid />
       <Header />
-
       <Routes>
         <Route path="/" element={<Content />} />
         <Route path="/ban-ghe-an" element={<DingingTable />} />
@@ -70,14 +92,28 @@ const Client = props => {
         <Route path="/ghequaybar" element={<GhequayBar />} />
         <Route path="/ghevanphong" element={<GhevanPhong />} />
         <Route path="/khuyenmai" element={<GhequayBar />} />
+        <Route path="/cardbuy/:id" element={<Cardbuy />} />
+        <Route path="/more-new-collection" element={<NewCollectionMore />} />
+        <Route path="/more-san-vuon" element={<SanVuonNgoaiTroiMore />} />
+        <Route path="/more-van-phong" element={<VanPhongMore />} />
+        <Route path="/more-ban-ghe-cafe" element={<BanGheCafeMore />} />
+        <Route path="/more-ghe-quay-bar" element={<GheQuayBarMore />} />
+        <Route path="/more-sofa" element={<SofaMore />} />
+        <Route path="/more-ban-tra-ban-sofa" element={<BanTraBanSofaMore />} />
+        <Route path="/more-ghe-thu-gian" element={<GheThugianMore />} />
+        <Route path="/search-results" element={<SearchResults />} />
+        <Route path="/list-cart" element={<Cart />} />
+        <Route path="/dangnhap" element={<Login />} />
+        <Route path="/dangky" element={<Signup />} />
+        <Route path="/carts" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/info" element={<Information />} />
+        <Route path="/payment" element={<CartPayment />} />
+        <Route path="/history" element={<History />} />
       </Routes>
       <Footer />
-    </div>
-    );
-};
-
-Client.propTypes = {
-    
-};
+    </>
+  );
+}
 
 export default Client;

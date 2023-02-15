@@ -1,0 +1,8 @@
+.card img {
+  width: 325px !important;
+  height: 325px;
+  /* margin: 0 auto; */
+}
+.card-item {
+  display: flex;
+}

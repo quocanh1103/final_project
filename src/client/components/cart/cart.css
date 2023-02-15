@@ -1,0 +1,167 @@
+table {
+  width: 75% !important;
+  margin: 0 auto;
+}
+.cart h1 {
+  text-align: center;
+  color: #ffb729;
+}
+.cart h2 {
+  padding: 10%;
+  text-align: center;
+}
+table img {
+  width: 100px;
+}
+table .text {
+  text-align: center;
+  padding-top: 40px !important;
+}
+
+table th {
+  text-align: center;
+}
+table button {
+  width: 20px;
+}
+table input {
+  width: 50px;
+  padding-left: 18px;
+}
+.text button {
+  width: 26px;
+}
+.btn-sm {
+  margin-left: 80%;
+  margin-bottom: 6%;
+  margin-top: 10px;
+}
+.btn-sm b {
+  padding-right: 10px;
+}
+.checkout h1 {
+  text-align: center;
+}
+.checkout {
+  /* border-radius: 50%; */
+  border: 1px black solid;
+  width: 80%;
+  margin: 6% 10%;
+  width: 80%;
+  background-color: #04222d;
+  color: #fff;
+  padding: 3% 3%;
+}
+.form-check {
+  margin-left: 29%;
+  display: flex !important;
+}
+.checkout button {
+  border-radius: 14px;
+  margin-left: 40%;
+  margin-top: 31px;
+  width: 130px;
+  border: none;
+}
+.form-check span {
+  width: 130px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.form-check p {
+  padding-top: 3px;
+  font-size: 19px;
+}
+.form-check input {
+  margin-top: 10px;
+  background-color: #e3e3e3;
+  width: 40%;
+  border: none;
+  border-bottom: 1px black solid;
+  outline: none;
+}
+.form-check input[type="radio"] {
+  width: 15px;
+}
+.cart h1 {
+  margin-top: 6%;
+  /* margin-bottom: 6%; */
+}
+.form-check label {
+  margin-top: 23px;
+  margin-left: 12px;
+  /* margin-right: 5px; */
+}
+.pay img {
+  width: 80px;
+}
+.pay .img2 {
+  width: 45px;
+}
+.payment {
+  text-align: center;
+}
+.payment {
+  padding-top: 60px;
+}
+.payment h1 {
+  color: #ffb729;
+}
+.pay {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.pay-ship {
+  margin-right: 10px;
+}
+.pay-ship-1 {
+  margin-right: 10px;
+}
+.pay-ship-2 {
+  margin-left: 10px;
+}
+.ship {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.ship span {
+  padding-left: 10px;
+}
+.payment button {
+  margin-bottom: 50px;
+  border-radius: 14px;
+  width: 115px;
+  height: 40px;
+}
+.payment b:first-child {
+  margin-bottom: 10px;
+}
+.history {
+  text-align: center;
+}
+.history .th1,
+.history .th2,
+.history .th5,
+.history .th6,
+.history .th7,
+.history .th8 {
+  width: 100px;
+}
+.history .th3 {
+  width: 166px;
+}
+.history h1 {
+  color: #ffb729;
+}
+.history h2 {
+  margin-top: 100px;
+}
+.history {
+  margin: 100px;
+}
+.history .th4 {
+  width: 129px;
+}

@@ -1,0 +1,59 @@
+.login {
+  margin-left: 40%;
+}
+.loginpage {
+  padding-top: 5%;
+  background-color: rgb(239, 240, 255);
+  padding-bottom: 5%;
+}
+
+.login h1 {
+  text-align: center;
+  color: rgb(119, 119, 252);
+}
+.login {
+  border-radius: 14px;
+  box-shadow: 0px 0px 14px 3px rgb(222, 224, 250);
+  width: 35%;
+  padding: 15px 15px;
+
+  margin-left: 35%;
+  background-color: white;
+}
+
+.infoform {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+label {
+  margin-top: 1rem;
+}
+input.iplogin {
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.25rem;
+  outline: none;
+  /* width: 40%; */
+}
+
+button.btnlogin {
+  margin-top: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  padding: 0.5rem;
+  background-color: rgb(104, 187, 255);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.errorMsg {
+  max-width: 100%;
+  font-size: 15px;
+  color: rgb(248, 106, 106);
+}

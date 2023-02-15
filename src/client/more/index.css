@@ -1,0 +1,90 @@
+.more-newcollection .row,
+.more-banghecafe .row,
+.more-bantrabansofa .row,
+.more-ghequaybar .row,
+.more-ghethugian .row,
+.more-sanvuonngoaitroi .row,
+.more-sofa .row,
+.more-vanphong .row {
+  justify-content: center;
+}
+.more-newcollection,
+.more-banghecafe,
+.more-bantrabansofa,
+.more-ghequaybar,
+.more-ghethugian,
+.more-sanvuonngoaitroi,
+.more-sofa,
+.more-vanphong {
+  padding-left: 25px;
+  padding: 0 12px;
+}
+.more-newcollection .row-sum,
+.more-banghecafe .row-sum,
+.more-bantrabansofa .row-sum,
+.more-ghequaybar .row-sum,
+.more-ghethugian .row-sum,
+.more-sanvuonngoaitroi .row-sum,
+.more-sofa .row-sum,
+.more-vanphong .row-sum {
+  display: flex;
+  width: 100%;
+}
+
+.more-newcollection button,
+.more-banghecafe button,
+.more-bantrabansofa button,
+.more-ghequaybar button,
+.more-ghethugian button,
+.more-sanvuonngoaitroi button,
+.more-sofa button,
+.more-vanphong button {
+  margin-top: 10px;
+  width: 150px;
+  margin-bottom: 10px;
+  border-radius: 14px;
+}
+.more-newcollection .text-filter,
+.more-banghecafe .text-filter,
+.more-bantrabansofa .text-filter,
+.more-ghequaybar .text-filter,
+.more-ghethugian .text-filter,
+.more-sanvuonngoaitroi .text-filter,
+.more-sofa .text-filter,
+.more-vanphong .text-filter {
+  height: 62px;
+  border-radius: 35px;
+  padding-left: 33px;
+  color: #fff;
+  padding-top: 19px;
+  width: 150px;
+  background-color: #04222d;
+}
+
+.more-newcollection button:hover,
+.more-banghecafe button:hover,
+.more-bantrabansofa button:hover,
+.more-ghequaybar button:hover,
+.more-ghethugian button:hover,
+.more-sanvuonngoaitroi button:hover,
+.more-sofa button:hover,
+.more-vanphong button:hover {
+  background-color: #ddd;
+}
+
+.more-newcollection button:focus,
+.more-banghecafe button:focus,
+.more-bantrabansofa button:focus,
+.more-ghequaybar button:focus,
+.more-ghethugian button:focus,
+.more-sanvuonngoaitroi button:focus,
+.more-sofa button:focus,
+.more-vanphong button:focus {
+  background-color: #04222d;
+
+  color: #f2f2f2;
+}
+.row-button {
+  display: flex;
+  flex-direction: column;
+}

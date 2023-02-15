@@ -1,0 +1,15 @@
+select {
+  background-color: #04222d;
+  /* color: #fff; */
+  position: absolute;
+  right: 100px;
+  top: 91%;
+  border-radius: 4px;
+  padding: 0.2rem;
+  cursor: pointer;
+  /* color: rgb(25 10 86); */
+  color: white;
+}
+option span {
+  font-weight: 500 !important;
+}
