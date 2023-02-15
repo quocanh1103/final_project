@@ -1,9 +1,9 @@
-import { axiosClient } from "../axiosClient";
+import { axiosAdmin } from "../Axios";
 
 const ComentApis = {
   getCommentProduct: async (id) => {
     try {
-      const res = await axiosClient.get(`/comments/${id}`);
+      const res = await axiosAdmin.get(`/comments/${id}`);
       return res;
     } catch (e) {
       console.log(e);
@@ -12,7 +12,7 @@ const ComentApis = {
 
   postCommentProduct: async (query) => {
     try {
-      const res = await axiosClient.post(`/comments`, query);
+      const res = await axiosAdmin.post(`/comments`, query);
       return res;
     } catch (e) {
       console.log(e);

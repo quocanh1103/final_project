@@ -330,6 +330,14 @@ a {
 }
 .value-name {
   max-width: 183px;
+  color: #297f9f !important;
+}
+.text-price {
+  color: #297f9f !important;
+}
+
+.icon-shopping {
+	color: #297f9f !important;
 }
 .img-product {
   width: 80px;
@@ -341,9 +349,9 @@ a {
   display: flex;
 }
 .user a {
-  color: #297f9f;
-  text-decoration: none;
-  font-size: 21px;
-  font-weight: 500;
-  text-align: center;
+  color: #297f9f !important;
+  text-decoration: none !important;
+  font-size: 21px !important;
+  font-weight: 500 !important;
+  text-align: center !important;
 }

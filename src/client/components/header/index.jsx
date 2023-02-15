@@ -119,7 +119,9 @@ function Header(props) {
                         </a>
                         <p>
                           <a href={"/cardbuy/" + value.id}>
-                            <b>{value.pricenew?.toLocaleString("en-US")}đ</b>
+                            <b className="text-price">
+                              {value.pricenew?.toLocaleString("en-US")}đ
+                            </b>
                           </a>
                         </p>
                       </div>
@@ -147,7 +149,7 @@ function Header(props) {
             {loginUser ? <Logout /> : <LoginLink />}
           </div>
           <div className="cart">
-            <Link to="/carts">
+            <Link className="icon-shopping" to="/carts">
               <i className="fa-solid fa-cart-shopping"></i>
               {/* <span className="count">{length.length}</span> */}
             </Link>

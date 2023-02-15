@@ -1,11 +1,11 @@
-// import { axiosClient } from "../base_adapter";
+// import { axiosAdmin } from "../base_adapter";
 
-import { axiosClient } from "../axiosClient";
+import { axiosAdmin } from "../Axios";
 
 const productApis = {
   getAll: async () => {
     try {
-      const res = await axiosClient.get("/products");
+      const res = await axiosAdmin.get("/products");
       return res;
     } catch (e) {
       console.log(e);
@@ -14,7 +14,7 @@ const productApis = {
 
   getProductByCate: (category) => {
     try {
-      const res = axiosClient.get(
+      const res = axiosAdmin.get(
         `/products?category=${category}&_start=0&_end=3
         `
       );
@@ -23,7 +23,7 @@ const productApis = {
   },
   getProductByCateAll: (category) => {
     try {
-      const res = axiosClient.get(
+      const res = axiosAdmin.get(
         `/products?category=${category}
         `
       );
@@ -32,7 +32,7 @@ const productApis = {
   },
   getProductByCateAllFilter: (category) => {
     try {
-      const res = axiosClient.get(
+      const res = axiosAdmin.get(
         `/products${category}
         `
       );
@@ -41,7 +41,7 @@ const productApis = {
   },
   searchProductByName: (category) => {
     try {
-      const res = axiosClient.get(
+      const res = axiosAdmin.get(
         `/products?q=${category}
         `
       );
@@ -51,7 +51,7 @@ const productApis = {
 
   getDetail: (id) => {
     try {
-      const res = axiosClient.get(`/products/${id}`);
+      const res = axiosAdmin.get(`/products/${id}`);
       return res;
     } catch (error) {}
   },

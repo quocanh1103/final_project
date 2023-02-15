@@ -135,9 +135,6 @@ function CartPayment(props) {
               <th>
                 <strong>TỔNG</strong>
               </th>
-              <th>
-                <strong></strong>
-              </th>
             </tr>
           </thead>
           <tbody>

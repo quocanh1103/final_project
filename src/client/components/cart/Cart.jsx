@@ -337,6 +337,7 @@ function Cart(props) {
                         <div>
                           <a
                             style={{ cursor: "pointer" }}
+                            className="icon-shopping"
                             onClick={() =>
                               handleDelete(
                                 value.idUser,

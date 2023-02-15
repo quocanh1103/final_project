@@ -3,10 +3,10 @@
   display: flex;
 }
 
-.card-text {
+.card-text-product {
   margin-left: 100px;
 }
-.card-text h1 {
+.card-text-product h1 {
   font-size: 32px;
 }
 .cardbuy img {

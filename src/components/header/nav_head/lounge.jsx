@@ -12,16 +12,16 @@ function Lounge() {
           </div>
         </li>
         <li className="list">
-          <div className="col-1">
+          <div className="col">
             <a href="/ban_sofa_thong_minh">Bàn sofa thông minh</a>
           </div>
-          <div className="col-1">
+          <div className="col">
             <a href="/ban_sofa_ban_tra_mat_kinh">Bàn sofa, bàn trà mặt kính</a>
           </div>
-          <div className="col-1">
+          <div className="col">
             <a href="/ban_sofa_ban_tra_mat_da">Bàn sofa, bàn trà mặt đá</a>
           </div>
-          <div className="col-1">
+          <div className="col">
             <a href="/ban_sofa_ban_tra_tan_co_dien">
               Bàn sofa, bàn trà tân cỗ điển
             </a>
@@ -33,13 +33,13 @@ function Lounge() {
           </a>
         </li>
         <li className="list">
-          <div className="col-1">
+          <div className="col">
             <a href="/sofa_bo">Sofa bộ</a>
           </div>
-          <div className="col-1">
+          <div className="col">
             <a href="/sofa_goc">Sofa góc</a>
           </div>
-          <div className="col-1">
+          <div className="col">
             <a href="/sofa_bang">Sofa băng</a>
           </div>
         </li>

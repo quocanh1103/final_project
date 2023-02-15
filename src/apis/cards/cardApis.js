@@ -1,9 +1,9 @@
-import { axiosClient } from "../axiosClient";
+import { axiosAdmin } from "../Axios";
 
 const CardApis = {
   getCart: (query) => {
     try {
-      const res = axiosClient.get(`/carts${query}`);
+      const res = axiosAdmin.get(`/carts${query}`);
       return res;
     } catch (e) {
       console.log(e);
@@ -11,7 +11,7 @@ const CardApis = {
   },
   getCartId: (id) => {
     try {
-      const res = axiosClient.get(`/carts/${id}`);
+      const res = axiosAdmin.get(`/carts/${id}`);
       return res;
     } catch (e) {
       console.log(e);
@@ -19,7 +19,7 @@ const CardApis = {
   },
   postAddToCart: (query) => {
     try {
-      const res = axiosClient.post(`/carts`, query);
+      const res = axiosAdmin.post(`/carts`, query);
       return res;
     } catch (e) {
       console.log(e);
@@ -27,7 +27,7 @@ const CardApis = {
   },
   deleteToCart: (id) => {
     try {
-      const res = axiosClient.delete(`/carts/${id}`);
+      const res = axiosAdmin.delete(`/carts/${id}`);
       return res;
     } catch (e) {
       console.log(e);
@@ -35,7 +35,7 @@ const CardApis = {
   },
   deleteToCartOder: (query) => {
     try {
-      const res = axiosClient.delete(`/carts/${query}`);
+      const res = axiosAdmin.delete(`/carts/${query}`);
       return res;
     } catch (e) {
       console.log(e);
@@ -43,7 +43,7 @@ const CardApis = {
   },
   GetCartOder: (idUser) => {
     try {
-      const res = axiosClient.get(`/orders?${idUser}`);
+      const res = axiosAdmin.get(`/orders?${idUser}`);
       return res;
     } catch (e) {
       console.log(e);
@@ -51,7 +51,7 @@ const CardApis = {
   },
   patchToCart: (id, count) => {
     try {
-      const res = axiosClient.patch(`/carts/${id}`, count);
+      const res = axiosAdmin.patch(`/carts/${id}`, count);
       return res;
     } catch (e) {
       console.log(e);
@@ -59,7 +59,7 @@ const CardApis = {
   },
   postOrder: (query) => {
     try {
-      const res = axiosClient.post(`/orders`, query);
+      const res = axiosAdmin.post(`/orders`, query);
       return res;
     } catch (e) {
       console.log(e);

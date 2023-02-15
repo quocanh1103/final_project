@@ -141,8 +141,8 @@ function Product(props) {
                 <SearchForm onSubmit={handleFiltersChange} />
               </div>
 
-              <table class="table col-11">
-                <thead className="thead-dark">
+              <table class="table w-100 col-11">
+                <thead className="table-dark">
                   <tr>
                     <th scope="col">Tên sản phẩm</th>
                     <th scope="col">Ảnh</th>

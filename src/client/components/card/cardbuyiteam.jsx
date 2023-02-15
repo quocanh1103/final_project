@@ -264,7 +264,7 @@ function Cardbuyitem() {
             <div className="card-image">
               <img src={product.image} alt="" />
             </div>
-            <div className="card-text">
+            <div className="card-text-product">
               <h1>{product.name}</h1>
               <div className="description">
                 <label htmlFor="">Giá:</label>
@@ -316,11 +316,11 @@ function Cardbuyitem() {
           </div>
           <div className="detail">
             <h3>MÔ TẢ</h3>
-            <em>
-              <strong>
-                <span>{product.name}</span>
-              </strong>
-            </em>
+            {/* <em> */}
+            <strong>
+              <span>{product.name}</span>
+            </strong>
+            {/* </em> */}
             <br /> <br />
             <p>
               Nâng tầm vị thế gia chủ với Bộ bàn ghế ăn mặt đá tròn xoay Inox

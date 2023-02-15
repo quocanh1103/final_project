@@ -56,8 +56,8 @@ function Order(props) {
             <input type="search" id="inp_search" placeholder="Tìm kiếm..." />
           </div>
         </div>
-        <table class="table col-11">
-          <thead className="thead-dark">
+        <table class="table w-100 col-11">
+          <thead className="table-dark">
             <tr>
               <th>Khách hàng</th>
               <th>Đơn hàng</th>

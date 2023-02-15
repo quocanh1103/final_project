@@ -23,8 +23,8 @@ function AddCus(props) {
         <p id="line">
           ______________________________________________________________________________
         </p>
-        <table className="table col-11">
-          <thead className="thead-dark">
+        <table className="table w-100 col-11">
+          <thead className="table-thead-dark">
             <tr>
               <th>Tên khách hàng</th>
               <th>Điện thoại</th>

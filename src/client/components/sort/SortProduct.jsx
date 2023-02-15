@@ -13,7 +13,7 @@ function SortProduct(props) {
   };
 
   return (
-    <select className="selectpicker ml-auto" onChange={onChangeValue}>
+    <select className="selectpicker ms-auto select-client" onChange={onChangeValue}>
       <option value="default">
         <span>MẶC ĐỊNH </span>
       </option>

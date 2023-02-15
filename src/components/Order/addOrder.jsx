@@ -53,8 +53,8 @@ function AddOrder(props) {
         <p id="line">
           ______________________________________________________________________________
         </p>
-        <table class="table col-9">
-          <thead className="thead-dark">
+        <table class="table w-100 col-9">
+          <thead className="table-dark">
             <tr>
               <th>Tên khách hàng</th>
               <th>Đơn hàng</th>
@@ -85,7 +85,7 @@ function AddOrder(props) {
                     <td className="align-middle">
                       {/* <Link to="/admin/order"> */}
                       <button
-                        className="btn btn-success"
+                        className="btn btn-success w-100"
                         onClick={() => {
                           updateData(item.id);
                         }}

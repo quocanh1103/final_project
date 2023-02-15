@@ -28,8 +28,8 @@ function Deactive(props) {
   };
   return (
     <div>
-      <table className="table col-11">
-        <thead className="thead-dark">
+      <table className="table w-100 col-11">
+        <thead className="table-dark">
           <tr>
             <th scope="col">Họ và tên</th>
             <th scope="col">Điện thoại</th>

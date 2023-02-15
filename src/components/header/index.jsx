@@ -62,7 +62,7 @@ function Header() {
             </ul>
           </div>
           <div className="cart">
-            <a href="">
+            <a className='icon-shopping' href="">
               <i className="fa-solid fa-cart-shopping"></i>
               <span className="count">0</span>
             </a>

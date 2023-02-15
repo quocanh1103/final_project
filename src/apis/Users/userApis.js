@@ -1,9 +1,9 @@
-import { axiosClient } from "../axiosClient";
+import { axiosAdmin } from "../Axios";
 
 const UserApis = {
   getAll: () => {
     try {
-      const res = axiosClient.get("/users");
+      const res = axiosAdmin.get("/users");
       return res;
     } catch (e) {
       console.log(e);
@@ -11,7 +11,7 @@ const UserApis = {
   },
   getUserEmail: (email) => {
     try {
-      const res = axiosClient.get(`/users?email=${email}`);
+      const res = axiosAdmin.get(`/users?email=${email}`);
       return res;
     } catch (error) {
       console.log(error);
@@ -19,7 +19,7 @@ const UserApis = {
   },
   getUserId: (id) => {
     try {
-      const res = axiosClient.get(`/users/${id}`);
+      const res = axiosAdmin.get(`/users/${id}`);
       return res;
     } catch (error) {
       console.log(error);
@@ -27,7 +27,7 @@ const UserApis = {
   },
   getUserIdCheckout: (id) => {
     try {
-      const res = axiosClient.get(`/users?${id}`);
+      const res = axiosAdmin.get(`/users?${id}`);
       return res;
     } catch (error) {
       console.log(error);
@@ -36,7 +36,7 @@ const UserApis = {
 
   add: async (userid) => {
     try {
-      const res = await axiosClient.post("/users", userid);
+      const res = await axiosAdmin.post("/users", userid);
       return res;
     } catch (error) {
       console.log(error);
@@ -44,7 +44,7 @@ const UserApis = {
   },
   editUser: (id, infomation) => {
     try {
-      const res = axiosClient.patch(`/users/${id}`, infomation);
+      const res = axiosAdmin.patch(`/users/${id}`, infomation);
       return res;
     } catch (e) {
       console.log(e);

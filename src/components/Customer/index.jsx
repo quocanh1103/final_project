@@ -9,15 +9,17 @@ function Customer(props) {
   const [filter, setFilter] = useState({});
 
   const [users, setUsers] = useState([]);
+  console.log("user", users);
   const [dataUsers, setdataUsers] = useState([]);
 
   const getDataUsers = async () => {
     try {
       const res = await productApis.getUsers();
-      // console.log(res.data);
+      console.log(res.data);
       return setdataUsers(res.data);
     } catch (errors) {}
   };
+
   useEffect(() => {
     getDataUsers();
   }, []);
@@ -68,16 +70,18 @@ function Customer(props) {
             <div className="row">
               {users.length > 0
                 ? users.map((item) => {
-                    if (item.status === "Đang hoạt động") {
-                      <CardCus
-                        props={item}
-                        // key={item.id}
-                        // deactiveUsers={deactiveUsers}
-                      />;
+                    if (item.status === 0) {
+                      return (
+                        <CardCus
+                          props={item}
+                          // key={item.id}
+                          // deactiveUsers={deactiveUsers}
+                        />
+                      );
                     }
                   })
                 : dataUsers.map((item) => {
-                    if (item.status === "Đang hoạt động") {
+                    if (item.status === 0) {
                       return (
                         <CardCus
                           props={item}
