@@ -1,3 +1,4 @@
+import { data } from "../../components/Revenue";
 import { axiosAdmin } from "../Axios";
 
 const productApis = {
@@ -73,9 +74,15 @@ const productApis = {
 			return response;
 		} catch (error) {}
 	},
-	patchData: (id) => {
+	patchData: (id, data) => {
 		try {
-			const response = axiosAdmin.patch(`/orders${id}`);
+			const response = axiosAdmin.patch(`/orders/${id}`, data);
+			return response;
+		} catch (error) {}
+	},
+	getOrdersByName: (filter) => {
+		try {
+			const response = axiosAdmin.get(`/orders?q=${filter}`);
 			return response;
 		} catch (error) {}
 	},

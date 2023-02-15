@@ -1315,8 +1315,8 @@
       "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX380, ",
       "count": "2 ",
       "address": "4 Nguyễn cư trinh",
-      "deliver": "Chưa được vận chuyển",
-      "status": "được xác nhận",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
       "id": 1
     },
     {
@@ -1328,8 +1328,8 @@
       "nameProduct": "Bộ bàn ăn nhập khẩu hiện đại mặt đá Ceramic mã TVP-YC797, ",
       "count": "1 ",
       "address": "4 bùi quốc hưng",
-      "deliver": "Chưa được vận chuyển",
-      "status": "được xác nhận",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
       "id": 2
     },
     {
@@ -1341,8 +1341,8 @@
       "nameProduct": "Bộ bàn ghế ăn mặt đá tròn xoay Inox TVP-LUXTX450, ",
       "count": "1 ",
       "address": "4",
-      "deliver": "Chưa được vận chuyển",
-      "status": "được xác nhận",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
       "id": 3
     },
     {
@@ -1354,8 +1354,8 @@
       "nameProduct": "Ghế thư giãn bập bênh Daamudi Kai TVP-TG 1, ",
       "count": "2 ",
       "address": "4 nguyễn cư trinh",
-      "deliver": "Chưa được vận chuyển",
-      "status": "được xác nhận",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
       "id": 4
     },
     {
@@ -1367,8 +1367,8 @@
       "nameProduct": "Ghế Hay bọc vải nhung, chân sắt có bánh xe TVP, ",
       "count": "3 ",
       "address": "4 Nguyễn Cư Trinh, Quận Hải Châu, Thành Phố Đà Nẵng",
-      "deliver": "Chưa được vận chuyển",
-      "status": "được xác nhận",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
       "id": 5
     },
     {
@@ -1380,9 +1380,22 @@
       "nameProduct": "Bộ bàn ghế ăn thông minh kéo dài TVP-TM826, ",
       "count": "3 ",
       "address": "5 Nguyễn Cư Trinh, Quận Hải Châu, Thành Phố Đà Nẵng",
+      "deliver": "Đang giao",
+      "status": "Đã xác nhận",
+      "id": 6
+    },
+    {
+      "idUser": "4",
+      "nameUser": "bảo ốm",
+      "phone": "123123122",
+      "idProduct": "4 ",
+      "total": 22550000,
+      "nameProduct": "Bộ bàn ghế ăn thông minh kéo dài TVP-TM827, ",
+      "count": "1 ",
+      "address": "5 Nguyễn Cư Trinh, Quận Hải Châu, Thành Phố Đà Nẵng",
       "deliver": "Chưa được vận chuyển",
       "status": "Chưa được xác nhận",
-      "id": 6
+      "id": 7
     }
   ],
   "comments": [

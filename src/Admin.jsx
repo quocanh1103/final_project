@@ -17,6 +17,8 @@ import Info from "./components/Sidebar/info";
 import Deactive from "./components/Customer/Deactive";
 
 const Admin = (props) => {
+	// console.log("🚀 ~ file: Admin.jsx:20 ~ Admin ~ props", props);
+
 	return (
 		<div className="App ">
 			<div className="container-fluid">
